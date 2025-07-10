@@ -1,12 +1,27 @@
-**MedClarifyAI - Ürün Açıklaması**
+## 👥 Takım İsmi
 
-**MedClarifyAI**, kullanıcıların sağlık belgelerini daha iyi anlamalarını sağlayan, yapay zeka destekli bir sağlık asistanıdır. Tıbbi tahlil sonuçları ve reçete içerikleri gibi karmaşık metinleri, sade ve anlaşılır bir dille özetleyerek hem hastaların hem de sağlık çalışanlarının hayatını kolaylaştırmayı amaçlar.
+Grup 173
+
+## 👥 Takım Üyeleri
+
+* Baran Tağ - Product Owner
+* Efe Çatıkkaş - Scrum Master
+* Zeynep İlhan - Developer
+* Enes Fehmi Manan - Developer
+* Burcu Sevinç - Developer
+  
+## Ürün Adı 
+MedClarifyAI
+
+## MedClarifyAI - Ürün Açıklaması
+
+ MedClarifyAI, kullanıcıların sağlık belgelerini daha iyi anlamalarını sağlayan, yapay zeka destekli bir sağlık asistanıdır. Tıbbi tahlil sonuçları ve reçete içerikleri gibi karmaşık metinleri, sade ve anlaşılır bir dille özetleyerek hem hastaların hem de sağlık çalışanlarının hayatını kolaylaştırmayı amaçlar.
 
 GenAI teknolojisiyle güçlendirilmiş MedClarifyAI, sağlık belgelerinde yer alan teknik terimleri analiz eder ve bunları bireylerin anlayabileceği şekilde açıklar. Böylece doktor-hasta iletişimini güçlendirir, bilinçli tedavi süreçlerine katkı sağlar. Sistem, hem metin girişi hem de görsel yüklemeleri işleyebilir ve kullanıcıya kişiselleştirilmiş açıklamalar sunar.
 
 ---
 
-**🚀 Ürün Özellikleri**
+## 🚀 Ürün Özellikleri
 
 1. **Otomatik Tıbbi Açıklama Üretimi:**  
    Tahlil sonuçları, reçeteler ve diğer medikal belgeleri sadeleştirip kullanıcıya özel açıklamalar sunar.
@@ -28,7 +43,7 @@ GenAI teknolojisiyle güçlendirilmiş MedClarifyAI, sağlık belgelerinde yer a
 
 ---
 
-**🎯 Hedef Kitle**
+## 🎯 Hedef Kitle
 
 **MedClarifyAI**, hem bireysel kullanıcıları hem de kurumsal sağlık hizmet sağlayıcılarını hedefleyen çift yönlü bir çözümdür:
 
@@ -52,48 +67,44 @@ GenAI teknolojisiyle güçlendirilmiş MedClarifyAI, sağlık belgelerinde yer a
 
 ---
 
-**Sprint 1 - MedClarifyAI**
+# Sprint 1 - MedClarifyAI
 
-**🧠 Proje Adı: MedClarifyAI**  
-*"Medical Clarity Powered by AI"*  
-Tahlil sonuçlarını ve reçete içeriklerini sadeleştiren, kullanıcı dostu açıklamalar sunan yapay zeka destekli sağlık asistanı.
 
----
-
-**🧾 Sprint 1 Amacı**  
+### 🧾 Sprint 1 Amacı
 Sprint 1'in amacı; proje vizyonunun belirlenmesi, MVP kapsamının netleştirilmesi, GitHub altyapısının oluşturulması ve temel modüllerin tanımlanmasıdır.
 
 ---
 
-**📌 Sprint Bilgileri**
+### Puan Tamamlama Mantığı
 
-- **Sprint Süresi:** **20 Haziran -- 6 Temmuz 2025**  
-- **Sprint Puanı:** 40  
-- **Toplam Backlog Puanı:** 260  
-- **Daily Scrum:** WhatsApp üzerinden yazılı bildirimlerle yürütüldü  
-- **Scrum Master:** Efe Çatıkkaş  
-- **Product Owner:** Baran Tağ  
-- **Developers:** Zeynep İlhan, Enes Fehmi Manan, Burcu Sevinç  
+Proje boyunca tamamlanması gereken backlog puanı 260'dır. İlk Sprint için bitirilmesi istenilen puan sayısı 40 olarak belirlenmiştir ve hedefe ulaşılmıştır. 
 
----
 
-**📋 Tamamlanan Backlog Öğeleri (Sprint 1)**
+#### 📋 Tamamlanan Backlog Öğeleri (Sprint 1)
 
 | **Backlog No** | **Açıklama**                                   | **Story Point** | **Durum** |
 |----------------|-----------------------------------------------|-----------------|-----------|
 | #1             | Proje isminin belirlenmesi ve marka kimliğinin oluşturulması | 10              | ✅ Done    |
 | #2             | Projenin modüler olarak tanımlanması (tahlil + reçete)       | 14              | ✅ Done    |
 | #3             | GitHub reposunun oluşturulması, erişim ayarlarının yapılması | 16              | ✅ Done    |
+___
+
+### Daily Scrum 
+
+WhatsApp üzerinden görüşmeler sağlanmıştır.
+
+Toplantı ve Whatsapp ScreenShotları
+
+[Whatsapp](https://imgur.com/gallery/spr-nt-1-HPWDDcM)
 
 ---
+### Sprint 1 Board
+[Sprint 1 Board](https://imgur.com/gallery/sprint-1-board-KwPpegh)
 
-**👥 Kullanıcı Hikayeleri (User Stories)**
+___
 
-| **Story No** | **Rol**          | **Amaç**                                          | **Puan** |
-|--------------|------------------|---------------------------------------------------|----------|
-| US-01        | Geliştirici      | Kod yapısını merkezi bir depo altında yönetmek istiyorum | 16       |
-| US-02        | Ürün Yöneticisi  | Proje ismini ekipçe kararlaştırmak ve konumlandırmak istiyorum | 10       |
-| US-03        | Takım            | Kullanıcı ihtiyaçlarını karşılayacak iki temel modülü netleştirmek istiyorum | 14       |
+### Ürün Durumu
+[Ürün Durumu](https://imgur.com/gallery/r-n-durumu-4JZxlVn)
 
 ---
 
@@ -109,8 +120,7 @@ Sprint 1'in amacı; proje vizyonunun belirlenmesi, MVP kapsamının netleştiril
 
 ---
 
-**🔍 Sprint Review**
-
+## 🔍 Sprint Review
 **Katılımcılar:**  
 - Efe Çatıkkaş (Scrum Master)  
 - Baran Tağ (Product Owner)  
@@ -123,7 +133,7 @@ Sprint 1 boyunca ürünün adı, amacı ve teknik temeli belirlendi. MVP kapsam�
 
 ---
 
-**🔁 Sprint Retrospective**
+## 🔁 Sprint Retrospective
 
 **Gözlemler:**  
 - Sprint hedefleri başarıyla tamamlandı  
@@ -137,7 +147,7 @@ Sprint 1 boyunca ürünün adı, amacı ve teknik temeli belirlendi. MVP kapsam�
 
 ---
 
-**🔖 Notlar**
+## 🔖Sprint Notları 
 
 - Proje ismi: **MedClarifyAI**  
 - Slogan: *"Medical Clarity Powered by AI."*  
