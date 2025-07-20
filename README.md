@@ -81,9 +81,10 @@ Proje boyunca tamamlanması gereken backlog puanı 260'dır. İlk Sprint için b
 
 | **Backlog No** | **Açıklama**                                   | **Story Point** | **Durum** |
 |----------------|-----------------------------------------------|-----------------|-----------|
-| #1             | Proje isminin belirlenmesi ve marka kimliğinin oluşturulması | 10              | ✅ Done    |
-| #2             | Projenin modüler yapısının belirlenmesi (frontend/backend)   | 14              | ✅ Done    |
-| #3             | GitHub reposunun oluşturulması, erişim ayarlarının yapılması | 16              | ✅ Done    |
+| #1             | Proje isminin belirlenmesi ve marka kimliğinin oluşturulması | 300              | ✅ Done    |
+| #2             | Projenin modüler yapısının belirlenmesi (frontend/backend)   | 300              | ✅ Done    |
+| #3             | GitHub reposunun oluşturulması, erişim ayarlarının yapılması | 600              | ✅ Done    |
+
 ___
 
 ### Daily Scrum 
@@ -96,12 +97,14 @@ Toplantı screenshot
 
 ---
 ### Sprint 1 Board
-[Sprint 1 Board](https://imgur.com/gallery/sprint-1-board-KwPpegh)
+![Sprint 1 Board](assets/trello_1.jpg)
 
 ___
 
 ### Ürün Durumu
-[Ürün Durumu](https://imgur.com/gallery/r-n-durumu-4JZxlVn)
+![landing_1](assets/landing_1.jpg)
+![landing_2](assets/landing_2.jpg)
+![landing_3](assets/landing_3.jpg)
 
 ---
 
@@ -164,7 +167,7 @@ Sprint 1 boyunca ürünün adı, amacı ve teknik temeli belirlendi. MVP kapsam�
 
 ![diagram](assets/diagram.png)
 
-
+</details>
 
 ## 📁 Repository Yapısı
 
