@@ -10,65 +10,62 @@ Grup 173
 * Enes Fehmi Manan - Developer
 * Burcu Sevinç - Developer
   
-## Ürün Adı 
-MedClarifyAI
+ ## InterVue
 
-## MedClarifyAI - Ürün Açıklaması
+## InterVue - Ürün Açıklaması
 
- MedClarifyAI, kullanıcıların sağlık belgelerini daha iyi anlamalarını sağlayan, yapay zeka destekli bir sağlık asistanıdır. Tıbbi tahlil sonuçları ve reçete içerikleri gibi karmaşık metinleri, sade ve anlaşılır bir dille özetleyerek hem hastaların hem de sağlık çalışanlarının hayatını kolaylaştırmayı amaçlar.
+InterVue, iş arayanların mülakat deneyimlerini geliştirmek için tasarlanmış, yapay zeka destekli bir mülakat simülasyon platformudur. Kullanıcılar, hedefledikleri sektör ve pozisyona özel mülakat pratikleri yapabilir, gerçek zamanlı analizler ve değerlendirmeler alabilirler.
 
-GenAI teknolojisiyle güçlendirilmiş MedClarifyAI, sağlık belgelerinde yer alan teknik terimleri analiz eder ve bunları bireylerin anlayabileceği şekilde açıklar. Böylece doktor-hasta iletişimini güçlendirir, bilinçli tedavi süreçlerine katkı sağlar. Sistem, hem metin girişi hem de görsel yüklemeleri işleyebilir ve kullanıcıya kişiselleştirilmiş açıklamalar sunar.
+GenAI teknolojisiyle güçlendirilmiş InterVue, kullanıcıların video mülakatlarını analiz eder ve çok yönlü geri bildirimler sunar. Sistem, duygu analizi, ses analizi ve içerik analizi yaparak kullanıcının performansını değerlendirir ve gelişim alanlarını belirler.
 
 ---
 
 ## 🚀 Ürün Özellikleri
 
-1. **Otomatik Tıbbi Açıklama Üretimi:**  
-   Tahlil sonuçları, reçeteler ve diğer medikal belgeleri sadeleştirip kullanıcıya özel açıklamalar sunar.
+1. **Kişiselleştirilmiş Mülakat Deneyimi:**  
+   Sektör, pozisyon ve deneyim seviyesine göre özelleştirilmiş mülakat senaryoları sunar.
 
-2. **Reçete Okuyucu Modül:**  
-   Reçete içeriğini analiz ederek ilaçların ne için, nasıl kullanılacağını, yan etkilerini ve ilaç etkileşimlerini açıklar.
+2. **Video Mülakat Analizi:**  
+   Duygu analizi, ses tonu analizi ve beden dili değerlendirmesi yapar.
 
-3. **Kullanıcı Dostu Web Arayüzü:**  
-   Hasta veya kullanıcı, dosyasını yükleyerek anlık geri bildirim alabilir. Temiz, basit ve erişilebilir tasarım.
+3. **Gerçek Zamanlı Değerlendirme:**  
+   Mülakat sırasında kullanıcının performansını anlık olarak analiz eder.
 
-4. **Gemini ile GenAI Entegrasyonu:**  
-   Google Gemini kullanılarak güçlü dil anlama kabiliyetiyle tıbbi açıklamaları üretir.
+4. **Detaylı Geri Bildirim:**  
+   Her mülakat sonrası kapsamlı bir rapor ve gelişim önerileri sunar.
 
-5. **FHIR Uyumlu Altyapı (Opsiyonel):**  
-   Sağlık kurumlarıyla entegrasyon için FHIR standardına uygun veri yapıları kullanılabilir.
+5. **Gemini ile GenAI Entegrasyonu:**  
+   Google Gemini kullanılarak güçlü dil anlama ve analiz yetenekleri sağlanır.
 
-6. **JSON Formatında Teknik Rapor Çıktısı (Opsiyonel):**  
-   Kullanıcıya sade açıklamanın yanı sıra teknik çıktı da sunulabilir (örneğin doktor için detaylı versiyon).
+6. **Agentic AI Yapısı:**  
+   Akıllı mülakat ajanları ile dinamik ve adaptif mülakat senaryoları oluşturulur.
 
 ---
 
 ## 🎯 Hedef Kitle
 
-**MedClarifyAI**, hem bireysel kullanıcıları hem de kurumsal sağlık hizmet sağlayıcılarını hedefleyen çift yönlü bir çözümdür:
+**InterVue**, iş arama sürecindeki bireyleri ve kariyer gelişimine önem verenleri hedefler:
 
-1. **Hastalar ve Hasta Yakınları:**  
-   Tahlil sonuçlarını ya da reçeteleri anlamakta zorlanan bireyler.
+1. **İş Arayanlar:**  
+   Aktif olarak iş arayan ve mülakat pratiği yapmak isteyen profesyoneller.
 
-2. **Aile Hekimleri ve Pratisyenler:**  
-   Hastalara daha iyi bilgi vermek isteyen sağlık çalışanları.
+2. **Yeni Mezunlar:**  
+   İlk iş deneyimleri için hazırlanan üniversite mezunları.
 
-3. **Devlet ve Özel Hastaneler:**  
-   Hasta iletişimini güçlendirmek isteyen kurumsal sağlık birimleri.
+3. **Kariyer Değiştirenler:**  
+   Farklı bir sektöre geçiş yapmak isteyen profesyoneller.
 
-4. **Dijital Sağlık Girişimleri:**  
-   Mevcut platformlarına AI destekli açıklama modülleri entegre etmek isteyen firmalar.
+4. **Yükselmek İsteyenler:**  
+   Şirket içi pozisyon değişikliği için hazırlananlar.
 
-5. **Engelli ve Yaşlı Bireyler:**  
-   Medikal belgeleri kolayca anlayarak ilaçlarını güvenle kullanmak isteyen kullanıcılar.
-
-6. **TeleTıp ve E-Nabız Gibi Sistemler:**  
-   Kullanıcıya daha anlaşılır bilgi sunmak isteyen sağlık uygulamaları ve e-devlet çözümleri.
+5. **Yurtdışı İş Arayanlar:**  
+   Uluslararası şirketlerde iş arayan ve yabancı dilde mülakat pratiği yapmak isteyenler.
 
 ---
 
-# Sprint 1 - MedClarifyAI
-
+# Sprint 1 - InterVue
+<details>
+<summary>Click to expand!</summary>
 
 ### 🧾 Sprint 1 Amacı
 Sprint 1'in amacı; proje vizyonunun belirlenmesi, MVP kapsamının netleştirilmesi, GitHub altyapısının oluşturulması ve temel modüllerin tanımlanmasıdır.
@@ -85,7 +82,7 @@ Proje boyunca tamamlanması gereken backlog puanı 260'dır. İlk Sprint için b
 | **Backlog No** | **Açıklama**                                   | **Story Point** | **Durum** |
 |----------------|-----------------------------------------------|-----------------|-----------|
 | #1             | Proje isminin belirlenmesi ve marka kimliğinin oluşturulması | 10              | ✅ Done    |
-| #2             | Projenin modüler olarak tanımlanması (tahlil + reçete)       | 14              | ✅ Done    |
+| #2             | Projenin modüler yapısının belirlenmesi (frontend/backend)   | 14              | ✅ Done    |
 | #3             | GitHub reposunun oluşturulması, erişim ayarlarının yapılması | 16              | ✅ Done    |
 ___
 
@@ -110,13 +107,13 @@ ___
 
 **✅ Tamamlanan Görevler**
 
-- Proje isim önerileri değerlendirildi ve **MedClarifyAI** olarak belirlendi  
-- Tahlil & reçete yorumlama senaryoları yazıldı  
-- Gemini API kullanımı için ön araştırma ve prompt örnekleri oluşturuldu  
-- GitHub reposu (medclarify-ai) açıldı, klasör yapısı planlandı  
+- Proje ismi **InterVue** olarak belirlendi  
+- Frontend ve backend mimarisi planlandı  
+- Gemini API kullanımı için ön araştırma yapıldı  
+- GitHub reposu oluşturuldu, klasör yapısı planlandı  
 - README.md içerik taslağı oluşturuldu  
 - Kullanıcı akışı için wireframe taslağı çizildi  
-- Sunum slaytlarının taslağı başlatıldı  
+- Agentic yapı için temel modüller belirlendi  
 
 ---
 
@@ -129,7 +126,7 @@ ___
 - Burcu Sevinç (Developer)  
 
 **Özet:**  
-Sprint 1 boyunca ürünün adı, amacı ve teknik temeli belirlendi. MVP kapsamında tahlil ve reçete verilerinin sadeleştirilmesine odaklanılacağı netleştirildi. Prompt testleri için ilk örnekler hazırlandı. Kod altyapısı için GitHub organizasyonu kuruldu. Bir sonraki sprintte AI modül entegrasyonu ve demo ekranları geliştirilecek.
+Sprint 1 boyunca ürünün adı, amacı ve teknik temeli belirlendi. MVP kapsamında mülakat simülasyonu ve video analizi özelliklerine odaklanılacağı netleştirildi. Frontend ve backend mimarisi için temel yapı oluşturuldu. Bir sonraki sprintte AI modül entegrasyonu ve temel UI bileşenleri geliştirilecek.
 
 ---
 
@@ -142,15 +139,59 @@ Sprint 1 boyunca ürünün adı, amacı ve teknik temeli belirlendi. MVP kapsam�
 
 **İyileştirme Kararları:**  
 - Haftalık sabit check-in saatleri eklenecek  
-- Prompt geliştirme görevlerine ayrı zaman bloğu ayrılacak  
+- AI modeli ve agentic yapı için ayrı bir çalışma grubu oluşturulacak  
 - Story point tahminleri için ortak değerlendirme toplantısı yapılacak  
 
 ---
 
 ## 🔖Sprint Notları 
 
-- Proje ismi: **MedClarifyAI**  
-- Slogan: *"Medical Clarity Powered by AI."*  
-- Kullanıcı rolleri: Hasta -- AI Asistan -- Doktor (gelecekte eklenecek)  
-- Geliştirici notu: Demo çıktısı hem sade metin hem de JSON formatta gösterilecek  
-- Sunum ve tanıtım dokümanları hazırlanıyor  
+- Proje ismi: **InterVue**  
+- Slogan: *"Your AI-Powered Interview Coach"*  
+- Tech Stack: HTML-CSS-JS (Frontend), Python-FastAPI/Flask (Backend), Supabase/Firebase (Database), Gemini (LLM)
+- Geliştirici notu: Agentic yapı ile dinamik mülakat senaryoları oluşturulacak
+- Frontend ve backend repository yapısı belirlendi
+
+---
+</details>
+
+
+## 📁 Repository Yapısı
+
+```
+InterVue/
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── assets/
+│   ├── src/
+│   │   ├── styles/
+│   │   │   └── main.css
+│   │   ├── components/
+│   │   │   └── common/
+│   │   ├── pages/
+│   │   │   ├── auth/
+│   │   │   └── interview/
+│   │   ├── utils/
+│   │   └── app.js
+│   └── package.json
+├── backend/
+│   ├── app/
+│   │   ├── core/
+│   │   │   ├── config.py
+│   │   │   └── database.py
+│   │   ├── agents/
+│   │   │   ├── interview_agent.py
+│   │   │   └── analysis_agent.py
+│   │   ├── api/
+│   │   │   └── routes.py
+│   │   ├── models/
+│   │   │   └── user.py
+│   │   └── services/
+│   │       ├── auth.py
+│   │       └── interview.py
+│   ├── requirements.txt
+│   └── main.py
+├── .gitignore
+└── README.md
+```
