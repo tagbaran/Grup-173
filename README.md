@@ -10,7 +10,7 @@ Grup 173
 * Enes Fehmi Manan - Developer
 * Burcu Sevinç - Developer
   
- ## InterVue
+## InterVue
 
 ## InterVue - Ürün Açıklaması
 
@@ -90,9 +90,9 @@ ___
 
 WhatsApp üzerinden görüşmeler sağlanmıştır.
 
-Toplantı ve Whatsapp ScreenShotları
+Toplantı screenshot
 
-[Whatsapp](https://imgur.com/gallery/spr-nt-1-HPWDDcM)
+![scrum_1](assets/daily_scrum_1.jpg)
 
 ---
 ### Sprint 1 Board
@@ -154,6 +154,16 @@ Sprint 1 boyunca ürünün adı, amacı ve teknik temeli belirlendi. MVP kapsam�
 
 ---
 </details>
+
+# Sprint 2 - InterVue
+
+<details>
+<summary>Click to expand!</summary>
+
+### Sprint 2 InterVue Akış Diyagramı
+
+![diagram](assets/diagram.png)
+
 
 
 ## 📁 Repository Yapısı
