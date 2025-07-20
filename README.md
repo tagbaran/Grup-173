@@ -74,7 +74,7 @@ Sprint 1'in amacı; proje vizyonunun belirlenmesi, MVP kapsamının netleştiril
 
 ### Puan Tamamlama Mantığı
 
-Proje boyunca tamamlanması gereken backlog puanı 260'dır. İlk Sprint için bitirilmesi istenilen puan sayısı 40 olarak belirlenmiştir ve hedefe ulaşılmıştır. 
+Proje boyunca tamamlanması gereken backlog puanı 1200'dır. İlk Sprint için bitirilmesi istenilen puan sayısı 300 olarak belirlenmiştir ve hedefe ulaşılmıştır. 
 
 
 #### 📋 Tamamlanan Backlog Öğeleri (Sprint 1)
@@ -162,6 +162,44 @@ Sprint 1 boyunca ürünün adı, amacı ve teknik temeli belirlendi. MVP kapsam�
 
 <details>
 <summary>Click to expand!</summary>
+
+### Sprint Hedefi
+Çekirdek yapay zeka fonksiyonunu (agentic replication) kanıtlamak, bunu temel bir arayüzle entegre etmek ve video kayıt özelliğini ekleyerek ilk çalışabilir prototipi (PoC - Proof of Concept) oluşturmak.
+
+___
+
+### Sprint Notes (Teknik Gelişmeler ve Kararlar):
+
+**AI Entegrasyonu ve Agentic Yapı:**
+- Gemini API entegrasyonu için temel servis modülü oluşturuldu
+- Mülakat senaryoları için prompt yapısı tasarlandı
+- Agentic yapının temel bileşenleri belirlendi:
+  - `interview_agent.py`: Mülakat akışını yöneten ajan
+  - `analysis_agent.py`: Cevap analizini yapan ajan
+
+**Repository Yapılandırması:**
+- Frontend ve backend için modüler klasör yapısı oluşturuldu
+- Temel bağımlılıklar belirlendi:
+  - Backend: Python, FastAPI/Flask, Gemini API
+  - Frontend: HTML, CSS, JavaScript
+- Geliştirme ortamı için Docker yapılandırması hazırlandı
+
+**POC Kapsamı:**
+- Basit bir mülakat simülasyonu:
+  1. Kullanıcı sektör/pozisyon seçimi
+  2. AI tarafından soru üretimi
+  3. Temel analiz ve geri bildirim
+- Minimal UI ile temel akışın gösterimi
+
+### Ürün Durumu
+![landing_4](assets/landing_4.jpg)
+![landing_5](assets/landing_5.jpg)
+![landing_6](assets/landing_6.jpg)
+
+**Sonraki Adımlar:**
+- Video/ses analizi entegrasyonu
+- Kullanıcı arayüzünün geliştirilmesi
+- Veritabanı entegrasyonu
 
 ### Sprint 2 InterVue Akış Diyagramı
 
