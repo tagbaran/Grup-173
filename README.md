@@ -1,22 +1,22 @@
-## 👥 Takım İsmi
 
-Grup 173
+  <div align="center">
+  <img src="assets/logo.png" alt="logo" width="350"/>
+</div>
 
-## 👥 Takım Üyeleri
-
-* Baran Tağ - Product Owner
-* Efe Çatıkkaş - Scrum Master
-* Zeynep İlhan - Developer
-* Enes Fehmi Manan - Developer
-* Burcu Sevinç - Developer
-  
-## InterVue
 
 ## InterVue - Ürün Açıklaması
 
 InterVue, iş arayanların mülakat deneyimlerini geliştirmek için tasarlanmış, yapay zeka destekli bir mülakat simülasyon platformudur. Kullanıcılar, hedefledikleri sektör ve pozisyona özel mülakat pratikleri yapabilir, gerçek zamanlı analizler ve değerlendirmeler alabilirler.
 
 GenAI teknolojisiyle güçlendirilmiş InterVue, kullanıcıların video mülakatlarını analiz eder ve çok yönlü geri bildirimler sunar. Sistem, duygu analizi, ses analizi ve içerik analizi yaparak kullanıcının performansını değerlendirir ve gelişim alanlarını belirler.
+
+## 👥 Grup 173
+
+* Baran Tağ - Product Owner
+* Efe Çatıkkaş - Scrum Master
+* Zeynep İlhan - Developer
+* Enes Fehmi Manan - Developer
+* Burcu Sevinç - Developer
 
 ---
 
@@ -79,13 +79,25 @@ Proje boyunca tamamlanması gereken backlog puanı 1200'dır. İlk Sprint için 
 
 #### 📋 Tamamlanan Backlog Öğeleri (Sprint 1)
 
-| **Backlog No** | **Açıklama**                                   | **Story Point** | **Durum** |
-|----------------|-----------------------------------------------|-----------------|-----------|
-| #1             | Proje isminin belirlenmesi ve marka kimliğinin oluşturulması | 300              | ✅ Done    |
-| #2             | Projenin modüler yapısının belirlenmesi (frontend/backend)   | 300              | ✅ Done    |
-| #3             | GitHub reposunun oluşturulması, erişim ayarlarının yapılması | 600              | ✅ Done    |
+| **Backlog No** | **Görev Tanımı** | **Atanan Kişi** | **Story Point** | **Durum** |
+|----------------|------------------|-----------------|-----------------|-----------|
+| #1 | Proje Yönetimi ve Planlama | Baran & Efe | 100 | ✅ Done |
+|    | - Product Backlog oluşturma |  | 30 | ✅ |
+|    | - Sprint planlaması |  | 40 | ✅ |
+|    | - Proje kapsamı belirleme |  | 30 | ✅ |
+| #2 | Teknik Altyapı Kurulumu | Enes | 120 | ✅ Done |
+|    | - GitHub repo kurulumu |  | 20 | ✅ |
+|    | - Branch stratejisi |  | 30 | ✅ |
+|    | - Klasör yapısı |  | 40 | ✅ |
+|    | - Tech stack belirleme |  | 30 | ✅ |
+| #3 | UI/UX Tasarımı | Burcu | 80 | ✅ Done |
+|    | - Pazar araştırması |  | 20 | ✅ |
+|    | - Figma tasarımları |  | 40 | ✅ |
+|    | - Kullanıcı akışı |  | 20 | ✅ |
 
-___
+**Sprint 1 Toplam Puan**: 300
+
+---
 
 ### Daily Scrum 
 
@@ -128,6 +140,29 @@ ___
 - Enes Fehmi Manan (Developer)  
 - Burcu Sevinç (Developer)  
 
+**Sprint Hedefleri ve Tamamlananlar:**
+
+1. **Proje Yönetimi ve Planlama (Baran & Efe)**
+   - Product Backlog oluşturuldu
+   - Sprint 1 ve 2 için ana hedefler belirlendi
+   - Proje kapsamı ve öncelikleri netleştirildi
+
+2. **Teknik Altyapı (Enes)**
+   - GitHub repository kurulumu tamamlandı
+   - Branch stratejisi belirlendi
+   - Temel klasör yapısı oluşturuldu
+   - Teknoloji stack'i kararlaştırıldı
+
+3. **UI/UX Tasarımı (Burcu)**
+   - Benzer platformlar incelendi (lovable.dev, bolt.new)
+   - Ana ekranların Figma tasarımları hazırlandı
+   - Kullanıcı akış diyagramı oluşturuldu
+
+4. **Dokümantasyon (Tüm Takım)**
+   - README.md dosyası oluşturuldu
+   - Proje tanımı ve hedefleri belirlendi
+   - Teknik dokümanlar hazırlandı
+
 **Özet:**  
 Sprint 1 boyunca ürünün adı, amacı ve teknik temeli belirlendi. MVP kapsamında mülakat simülasyonu ve video analizi özelliklerine odaklanılacağı netleştirildi. Frontend ve backend mimarisi için temel yapı oluşturuldu. Bir sonraki sprintte AI modül entegrasyonu ve temel UI bileşenleri geliştirilecek.
 
@@ -167,6 +202,35 @@ Sprint 1 boyunca ürünün adı, amacı ve teknik temeli belirlendi. MVP kapsam�
 Çekirdek yapay zeka fonksiyonunu (agentic replication) kanıtlamak, bunu temel bir arayüzle entegre etmek ve video kayıt özelliğini ekleyerek ilk çalışabilir prototipi (PoC - Proof of Concept) oluşturmak.
 
 ___
+
+#### 📋 Tamamlanan Backlog Öğeleri (Sprint 2)
+
+| **Backlog No** | **Görev Tanımı** | **Atanan Kişi** | **Story Point** | **Durum** |
+|----------------|------------------|-----------------|-----------------|-----------|
+| #4 | AI Entegrasyonu | Enes | 120 | ✅ Done |
+|    | - Gemini API entegrasyonu |  | 40 | ✅ |
+|    | - Prompt yapısı |  | 40 | ✅ |
+|    | - Temel agent modülleri |  | 40 | ✅ |
+| #5 | Frontend Temelleri | Burcu & Zeynep | 100 | ✅ Done |
+|    | - Temel UI componentleri |  | 40 | ✅ |
+|    | - Sayfa yapısı |  | 30 | ✅ |
+|    | - Routing |  | 30 | ✅ |
+| #6 | POC Geliştirme | Tüm Takım | 80 | ✅ Done |
+|    | - Mülakat simülasyonu |  | 40 | ✅ |
+|    | - Temel analiz |  | 20 | ✅ |
+|    | - Demo hazırlığı |  | 20 | ✅ |
+
+**Sprint 2 Toplam Puan**: 300
+
+### Daily Scrum 
+
+WhatsApp üzerinden görüşmeler sağlanmıştır.
+
+Toplantı screenshot
+
+![scrum_1](assets/daily_scrum_2.jpg)
+
+
 
 ### Sprint Notes (Teknik Gelişmeler ve Kararlar):
 
