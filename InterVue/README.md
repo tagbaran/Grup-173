@@ -37,8 +37,8 @@ An intelligent interview practice platform that provides realistic, text-based i
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/enesmanan/InterVue.git
-   cd lakat-sim-15
+   git clone https://github.com/tagbaran/Grup-173.git
+   cd Grup-173/InterVue/backend
    ```
 
 2. **Setup Backend**
@@ -48,6 +48,7 @@ An intelligent interview practice platform that provides realistic, text-based i
 
 3. **Setup Frontend**
    ```bash
+   cd ..
    npm install
    ```
 
@@ -61,6 +62,7 @@ An intelligent interview practice platform that provides realistic, text-based i
 
 1. **Start Backend** (Terminal 1)
    ```bash
+   python setup.py
    cd backend
    python run.py
    ```
@@ -91,7 +93,7 @@ An intelligent interview practice platform that provides realistic, text-based i
 ## Repository Structure
 
 ```
-lakat-sim-15/
+InterVue/
 ├── backend/                    # Python FastAPI backend
 │   ├── main.py                 # Main API application
 │   └── run.py                  # Server startup script

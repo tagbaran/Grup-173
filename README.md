@@ -8,7 +8,10 @@
 
 InterVue, iş arayanların mülakat deneyimlerini geliştirmek için tasarlanmış, yapay zeka destekli bir mülakat simülasyon platformudur. Kullanıcılar, hedefledikleri sektör ve pozisyona özel mülakat pratikleri yapabilir, gerçek zamanlı analizler ve değerlendirmeler alabilirler.
 
-GenAI teknolojisiyle güçlendirilmiş InterVue, kullanıcıların video mülakatlarını analiz eder ve çok yönlü geri bildirimler sunar. Sistem, duygu analizi, ses analizi ve içerik analizi yaparak kullanıcının performansını değerlendirir ve gelişim alanlarını belirler.
+GenAI teknolojisiyle güçlendirilmiş InterVue, kullanıcıların metin tabanlı mülakat cevaplarını analiz eder ve çok yönlü geri bildirimler sunar. Sistem, içerik analizi, dil kullanımı değerlendirmesi ve cevap kalitesi analizi yaparak kullanıcının performansını değerlendirir ve gelişim alanlarını belirler.
+
+### Demo Linki
+- [https://intervue-08f1.onrender.com/](https://intervue-08f1.onrender.com/)
 
 ## 👥 Grup 173
 
@@ -25,8 +28,8 @@ GenAI teknolojisiyle güçlendirilmiş InterVue, kullanıcıların video mülaka
 1. **Kişiselleştirilmiş Mülakat Deneyimi:**  
    Sektör, pozisyon ve deneyim seviyesine göre özelleştirilmiş mülakat senaryoları sunar.
 
-2. **Video Mülakat Analizi:**  
-   Duygu analizi, ses tonu analizi ve beden dili değerlendirmesi yapar.
+2. **Metin Tabanlı Mülakat Analizi:**  
+   Cevap kalitesi, dil kullanımı ve içerik analizi ile detaylı değerlendirme yapar.
 
 3. **Gerçek Zamanlı Değerlendirme:**  
    Mülakat sırasında kullanıcının performansını anlık olarak analiz eder.
@@ -77,25 +80,47 @@ Sprint 1'in amacı; proje vizyonunun belirlenmesi, MVP kapsamının netleştiril
 Proje boyunca tamamlanması gereken backlog puanı 1200'dır. İlk Sprint için bitirilmesi istenilen puan sayısı 300 olarak belirlenmiştir ve hedefe ulaşılmıştır. 
 
 
-#### 📋 Tamamlanan Backlog Öğeleri (Sprint 1)
+#### 📋 Sprint İçinde Tamamlanması Gereken Tahmini Puan (Sprint 1)
+
+| **Backlog No** | **Görev Tanımı** | **Atanan Kişi** | **Story Point** |
+|----------------|------------------|-----------------|-----------------|
+| #1 | Proje Yönetimi ve Planlama | Baran & Efe | 100 |
+|    | - Product Backlog oluşturma |  | 30 |
+|    | - Sprint planlaması |  | 40 |
+|    | - Proje kapsamı belirleme |  | 30 |
+| #2 | Teknik Altyapı Kurulumu | Enes | 120 |
+|    | - GitHub repo kurulumu |  | 20 |
+|    | - Branch stratejisi |  | 30 |
+|    | - Klasör yapısı |  | 40 |
+|    | - Tech stack belirleme |  | 30 |
+| #3 | UI/UX Tasarımı | Burcu | 80 |
+|    | - Pazar araştırması |  | 20 |
+|    | - Figma tasarımları |  | 40 |
+|    | - Kullanıcı akışı |  | 20 |
+
+**Sprint 1 Toplam Puan**: 300
+
+#### Sprint İçinde Tamamlanan Puan (Sprint 1)
 
 | **Backlog No** | **Görev Tanımı** | **Atanan Kişi** | **Story Point** | **Durum** |
 |----------------|------------------|-----------------|-----------------|-----------|
-| #1 | Proje Yönetimi ve Planlama | Baran & Efe | 100 | ✅ Done |
+| #1 | Proje Yönetimi ve Planlama | Baran & Efe | 100 | ✅ Tamamlandı |
 |    | - Product Backlog oluşturma |  | 30 | ✅ |
 |    | - Sprint planlaması |  | 40 | ✅ |
 |    | - Proje kapsamı belirleme |  | 30 | ✅ |
-| #2 | Teknik Altyapı Kurulumu | Enes | 120 | ✅ Done |
+| #2 | Teknik Altyapı Kurulumu | Enes | 120 | ✅ Tamamlandı |
 |    | - GitHub repo kurulumu |  | 20 | ✅ |
 |    | - Branch stratejisi |  | 30 | ✅ |
 |    | - Klasör yapısı |  | 40 | ✅ |
 |    | - Tech stack belirleme |  | 30 | ✅ |
-| #3 | UI/UX Tasarımı | Burcu | 80 | ✅ Done |
+| #3 | UI/UX Tasarımı | Burcu | 80 | ✅ Tamamlandı |
 |    | - Pazar araştırması |  | 20 | ✅ |
 |    | - Figma tasarımları |  | 40 | ✅ |
 |    | - Kullanıcı akışı |  | 20 | ✅ |
 
-**Sprint 1 Toplam Puan**: 300
+**Sprint 1 Tamamlanan Toplam Puan**: 300/300 (100%)
+
+**Başarı Oranı**: %100 - Tüm hedeflenen görevler başarıyla tamamlandı.
 
 ---
 
@@ -164,7 +189,7 @@ ___
    - Teknik dokümanlar hazırlandı
 
 **Özet:**  
-Sprint 1 boyunca ürünün adı, amacı ve teknik temeli belirlendi. MVP kapsamında mülakat simülasyonu ve video analizi özelliklerine odaklanılacağı netleştirildi. Frontend ve backend mimarisi için temel yapı oluşturuldu. Bir sonraki sprintte AI modül entegrasyonu ve temel UI bileşenleri geliştirilecek.
+Sprint 1 boyunca ürünün adı, amacı ve teknik temeli belirlendi. MVP kapsamında mülakat simülasyonu ve metin tabanlı analiz özelliklerine odaklanılacağı netleştirildi. Frontend ve backend mimarisi için temel yapı oluşturuldu. Bir sonraki sprintte AI modül entegrasyonu ve temel UI bileşenleri geliştirilecek.
 
 ---
 
@@ -199,28 +224,55 @@ Sprint 1 boyunca ürünün adı, amacı ve teknik temeli belirlendi. MVP kapsam�
 <summary>Click to expand!</summary>
 
 ### Sprint Hedefi
-Çekirdek yapay zeka fonksiyonunu (agentic replication) kanıtlamak, bunu temel bir arayüzle entegre etmek ve video kayıt özelliğini ekleyerek ilk çalışabilir prototipi (PoC - Proof of Concept) oluşturmak.
+Çekirdek yapay zeka fonksiyonunu (agentic replication) kanıtlamak, bunu temel bir arayüzle entegre etmek ve metin tabanlı mülakat özelliğini ekleyerek ilk çalışabilir prototipi (PoC - Proof of Concept) oluşturmak.
 
 ___
 
-#### 📋 Tamamlanan Backlog Öğeleri (Sprint 2)
+#### 📋 Sprint İçinde Tamamlanması Gereken Tahmini Puan (Sprint 2)
+
+| **Backlog No** | **Görev Tanımı** | **Atanan Kişi** | **Story Point** |
+|----------------|------------------|-----------------|-----------------|
+| #4 | AI Entegrasyonu | Enes | 120 |
+|    | - Gemini API entegrasyonu |  | 40 |
+|    | - Prompt yapısı |  | 40 |
+|    | - Temel agent modülleri |  | 40 |
+| #5 | Frontend Temelleri | Burcu & Zeynep | 100 |
+|    | - Temel UI componentleri |  | 40 |
+|    | - Sayfa yapısı |  | 30 |
+|    | - Routing |  | 30 |
+| #6 | POC Geliştirme | Tüm Takım | 80 |
+|    | - Mülakat simülasyonu |  | 40 |
+|    | - Temel analiz |  | 20 |
+|    | - Demo hazırlığı |  | 20 |
+
+**Sprint 2 Toplam Puan**: 300
+
+
+#### Sprint İçinde Tamamlanan Puan (Sprint 2)
 
 | **Backlog No** | **Görev Tanımı** | **Atanan Kişi** | **Story Point** | **Durum** |
 |----------------|------------------|-----------------|-----------------|-----------|
-| #4 | AI Entegrasyonu | Enes | 120 | ✅ Done |
+| #4 | AI Entegrasyonu | Enes | 120 | ✅ Tamamlandı |
 |    | - Gemini API entegrasyonu |  | 40 | ✅ |
 |    | - Prompt yapısı |  | 40 | ✅ |
-|    | - Temel agent modülleri |  | 40 | ✅ |
-| #5 | Frontend Temelleri | Burcu & Zeynep | 100 | ✅ Done |
+|    | - Temel agent modülleri |  | 40 | ⚠️ Kısmen |
+| #5 | Frontend Temelleri | Burcu & Zeynep | 100 | ⚠️ Kısmen |
 |    | - Temel UI componentleri |  | 40 | ✅ |
 |    | - Sayfa yapısı |  | 30 | ✅ |
-|    | - Routing |  | 30 | ✅ |
-| #6 | POC Geliştirme | Tüm Takım | 80 | ✅ Done |
+|    | - Routing |  | 30 | ❌ Tamamlanamadı |
+| #6 | POC Geliştirme | Tüm Takım | 80 | ⚠️ Kısmen |
 |    | - Mülakat simülasyonu |  | 40 | ✅ |
-|    | - Temel analiz |  | 20 | ✅ |
-|    | - Demo hazırlığı |  | 20 | ✅ |
+|    | - Temel analiz |  | 20 | ⚠️ Kısmen |
+|    | - Demo hazırlığı |  | 20 | ❌ Tamamlanamadı |
 
-**Sprint 2 Toplam Puan**: 300
+**Sprint 2 Tamamlanan Toplam Puan**: 250/300 (83%)
+
+**Başarı Oranı**: %83 - Hedeflerin çoğunluğu tamamlandı, bazı görevler bir sonraki sprinte taşındı.
+
+**Karşılaşılan Zorluklar:**
+- Routing implementasyonu beklenenden daha karmaşık çıktı
+- Demo hazırlığı için ek zaman gerekti
+- Agent modüllerinin entegrasyonu tam olarak bitmedi
 
 ### Daily Scrum 
 
@@ -230,9 +282,10 @@ Toplantı screenshot
 
 ![scrum_1](assets/daily_scrum_2.jpg)
 
+### Sprint 2 Board
+![Sprint 2 Board](assets/trello_2.jpg)
 
-
-### Sprint Notes (Teknik Gelişmeler ve Kararlar):
+### 🔍 Sprint Review(Teknik Gelişmeler ve Kararlar):
 
 **AI Entegrasyonu ve Agentic Yapı:**
 - Gemini API entegrasyonu için temel servis modülü oluşturuldu
@@ -261,7 +314,7 @@ Toplantı screenshot
 ![landing_6](assets/landing_6.jpg)
 
 **Sonraki Adımlar:**
-- Video/ses analizi entegrasyonu
+- Metin analizi ve değerlendirme sistemi geliştirme
 - Kullanıcı arayüzünün geliştirilmesi
 - Veritabanı entegrasyonu
 
@@ -269,44 +322,166 @@ Toplantı screenshot
 
 ![diagram](assets/diagram.png)
 
+
+## Sprint 2 - Sprint Retrospective
+
+###  Gözlemler
+
+- **Ekip Çalışması ve İletişim:**  
+  Ekip üyeleri arasında sorunsuz bir işbirliği sağlandı, ancak bazı görevlerin tamamlanma süreleri tahmin edilenin biraz gerisinde kaldı.
+
+- **Proje Yönetimi:**  
+  Sprint planlamasında daha net hedefler belirlemek, sprint içinde esneklik sağlamak adına faydalı oldu. Ancak bazı görevlerin kapsamı tam olarak netleşmediği için bazı yenilikçi fikirler sonradan entegre edildi.
+
+###  İyileştirme Kararları
+
+- **Daha Net Hedefler ve Planlama:**  
+  Sprint başında daha açık hedefler ve netleştirilmiş görevler ile başlanacak. Sprint sonu kontrolü daha sık yapılacak.
+
+- **Kodlama ve Test Süreçlerinin Ayrılması:**  
+  Kodlama ve test süreçleri daha dikkatli ayrılacak, bu sayede kodun doğruluğu daha hızlı test edilecek.
+
+
+
+
 </details>
 
-## 📁 Repository Yapısı
 
-```
-InterVue/
-├── frontend/
-│   ├── public/
-│   │   ├── index.html
-│   │   └── assets/
-│   ├── src/
-│   │   ├── styles/
-│   │   │   └── main.css
-│   │   ├── components/
-│   │   │   └── common/
-│   │   ├── pages/
-│   │   │   ├── auth/
-│   │   │   └── interview/
-│   │   ├── utils/
-│   │   └── app.js
-│   └── package.json
-├── backend/
-│   ├── app/
-│   │   ├── core/
-│   │   │   ├── config.py
-│   │   │   └── database.py
-│   │   ├── agents/
-│   │   │   ├── interview_agent.py
-│   │   │   └── analysis_agent.py
-│   │   ├── api/
-│   │   │   └── routes.py
-│   │   ├── models/
-│   │   │   └── user.py
-│   │   └── services/
-│   │       ├── auth.py
-│   │       └── interview.py
-│   ├── requirements.txt
-│   └── main.py
-├── .gitignore
-└── README.md
-```
+
+
+
+# Sprint 3 - InterVue
+
+<details>
+<summary>Click to expand!</summary>
+
+### Sprint Hedefi
+Sprint 2'den kalan görevleri tamamlamak, metin tabanlı analiz sistemini geliştirmek, kullanıcı arayüzünü geliştirmek ve projeyi başarıyla tamamlamak.
+
+___
+
+#### 📋 Sprint İçinde Tamamlanması Gereken Tahmini Puan (Sprint 3)
+
+| **Backlog No** | **Görev Tanımı** | **Atanan Kişi** | **Story Point** |
+|----------------|------------------|-----------------|------------------|
+| #7 | Metin Analizi Sistemi | Enes & Zeynep | 150 |
+|    | - Cevap kalitesi değerlendirme |  | 50 |
+|    | - Dil kullanımı analizi |  | 60 |
+|    | - İçerik değerlendirme algoritması |  | 40 |
+| #8 | UI/UX Geliştirme | Burcu & Zeynep | 120 |
+|    | - Responsive tasarım |  | 40 |
+|    | - Animasyonlar ve geçişler |  | 30 |
+|    | - Kullanıcı deneyimi iyileştirmeleri |  | 50 |
+| #9 | Proje Finalizasyonu | Enes | 80 |
+|    | - Veri modeli dokümantasyonu |  | 30 |
+|    | - API dokümantasyonu |  | 30 |
+|    | - Proje teslim hazırlığı |  | 20 |
+| #10 | Sprint 2 Kalan Görevler | Burcu | 50 |
+|    | - Routing tamamlama |  | 30 |
+|    | - Demo optimizasyonu |  | 20 |
+
+**Sprint 3 Toplam Puan**: 400
+
+
+
+#### Sprint İçinde Tamamlanan Puan (Sprint 3)
+
+| **Backlog No** | **Görev Tanımı** | **Atanan Kişi** | **Story Point** | **Durum** |
+|----------------|------------------|-----------------|-----------------|-----------|
+| #7 | Metin Analizi Sistemi | Enes & Zeynep | 150 | ✅ Tamamlandı |
+|    | - Cevap kalitesi değerlendirme |  | 50 | ✅ |
+|    | - Dil kullanımı analizi |  | 60 | ✅ |
+|    | - İçerik değerlendirme algoritması |  | 40 | ✅ |
+| #8 | UI/UX Geliştirme | Burcu & Zeynep | 120 | ✅ Tamamlandı |
+|    | - Responsive tasarım |  | 40 | ✅ |
+|    | - Animasyonlar ve geçişler |  | 30 | ✅ |
+|    | - Kullanıcı deneyimi iyileştirmeleri |  | 50 | ✅ |
+| #9 | Proje Finalizasyonu | Enes | 80 | ✅ Tamamlandı |
+|    | - Veri modeli dokümantasyonu |  | 30 | ✅ |
+|    | - API dokümantasyonu |  | 30 | ✅ |
+|    | - Proje teslim hazırlığı |  | 20 | ✅ |
+| #10 | Sprint 2 Kalan Görevler | Burcu | 50 | ✅ Tamamlandı |
+|    | - Routing tamamlama |  | 30 | ✅ |
+|    | - Demo optimizasyonu |  | 20 | ✅ |
+
+**Sprint 3 Tamamlanan Toplam Puan**: 400/400 (100%)
+
+**Başarı Oranı**: %100 - Sprint 2'ye göre büyük iyileşme gösterildi, proje başarıyla tamamlandı ve teslim edildi.
+
+**Tamamlanan Ana Başarılar:**
+- Metin analizi sistemi tamamen çalışır hale getirildi
+- Cevap kalitesi değerlendirme algoritması optimize edildi
+- Proje başarıyla tamamlandı ve dokümantasyonu yapıldı
+
+### Daily Scrum 
+
+WhatsApp üzerinden görüşmeler sağlanmıştır.
+
+Toplantı screenshot
+
+![scrum_3](assets/daily_scrum_3.jpg)
+
+### Sprint 3 Board
+![Sprint 3 Board](assets/trello_3.jpg)
+
+### 🔍 Sprint Review(Teknik Gelişmeler ve Kararlar):
+
+**Metin Analizi Sistemi:**
+- Cevap kalitesi değerlendirme sistemi tamamen çalışır hale getirildi
+- Dil kullanımı analizi algoritması optimize edildi
+- İçerik değerlendirme sistemi başarıyla entegre edildi
+
+**UI/UX Geliştirmeleri:**
+- Responsive tasarım tüm cihazlar için optimize edildi
+- Kullanıcı deneyimi çok daha akıcı hale getirildi
+- Modern animasyonlar ve geçiş efektleri eklendi
+
+**Proje Finalizasyonu:**
+- Veri modeli tamamen dokümante edildi
+- API dokümantasyonu tamamlandı
+- Proje teslim süreci başarıyla tamamlandı
+
+**Sprint 2 Borçları:**
+- Routing sistemi tamamen tamamlandı
+- Demo performansı optimize edildi
+- Sistem kararlılığı artırıldı
+
+**Teknik Kararlar:**
+- Metin analizi için NLP algoritmaları seçildi ve uygulandı
+- Proje mimarisi dokümante edildi ve teslim edildi
+- API yapısı RESTful mimariyle tasarlandı ve tamamlandı
+
+### Ürün Durumu
+![landing_7](assets/landing_7.jpg)
+![landing_8](assets/landing_8.jpg)
+
+
+
+## Sprint 3 - Sprint Retrospective
+
+###  Gözlemler
+
+- **Teknik Odak Değişimi ve Proje Tamamlanması:**  
+  Video/ses analizinden metin tabanlı analize geçiş, projeyi daha odaklı ve uygulanabilir hale getirdi. Ekip metin analizi konusunda güçlü deneyim kazandı ve proje başarıyla final haline ulaştı.
+
+- **Takım Koordinasyonu:**  
+  Sprint 2'deki iyileştirmeler meyvesini verdi. Daily scrum'lar daha etkili hale geldi ve görev dağılımı daha dengeli oldu.
+
+- **Kullanıcı Odaklı Geliştirme:**  
+  UI/UX iyileştirmeleri kullanıcı testlerinde çok olumlu geri bildirimler aldı. Ürün final haline ulaştı ve kullanıma hazır durumda.
+
+###  İyileştirme Kararları
+
+- **API Entegrasyonları için Daha Fazla Araştırma:**  
+  Karmaşık API entegrasyonları için sprint başında daha detaylı araştırma yapılması gerektiği öğrenildi.
+
+- **Proje Teslimi:**  
+  Tüm deliverable'lar tamamlandı ve proje başarıyla teslim edildi.
+
+- **Dokümantasyon:**  
+  Teknik dokümantasyon, kullanıcı kılavuzu ve proje raporu hazırlandı.
+
+- **Proje Değerlendirmesi:**  
+  Tüm sprint hedefleri başarıyla tamamlandı ve proje final haline ulaştı.
+
+</details>
